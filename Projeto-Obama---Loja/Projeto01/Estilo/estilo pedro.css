@@ -1,0 +1,425 @@
+/*RESET*/
+*{ /*Representa todo tipo de elemento elemento do HTML*/
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+
+
+img{ 
+    max-width: 100%;/*A imagem não passara de 100%*/
+}
+
+ul{
+    list-style: none; /* não deixara*/
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em;/* a cada em é 16px e 1.5 é 24px */
+    color: #333;
+}
+
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/*Usado para resetar as configuraçoes do navegador, para que ele não auto formate meu html e siga como eu coloquei no css*/
+
+/* Cabecalho Home*/
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-image: linear-gradient(to right, #4F32F0, #8873FF);
+}
+
+.logo a {
+    width: 84px;
+    height: 97px;
+    float: left;
+    background-image: url(../Imagem/macabro.jpg);
+    font-size: 0;
+    border-radius: 10px;
+}
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 25px;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #4F32F0;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+    scroll-behavior: smooth;
+    
+}
+
+.menu li {
+    float: left;
+    
+}
+
+.menu li a {
+    color: #9d9d9d;
+    padding: 18px;
+}
+
+.menu li a:hover {
+    color: #fff;
+    background-color: #4F32F0;
+    transition: 1s;
+    
+
+}
+
+/*SOCIAL ICONS */
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 25px;
+}
+
+.social-icons .fa-facebook-f:hover {
+    color: #3b5998;
+    transition: 0.3s;
+}
+
+.social-icons .fa-twitter-f:hover {
+    color: #1DA1F2;
+    transition: 0.3s;
+}
+
+.social-icons .fa-instagram:hover {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    transition: 0.3s;
+}
+
+.social-icons .fa-envelope:hover {
+    color: yellow;
+    transition: 0.3s;
+}
+
+.social-icons .fa-google:hover {
+    color: #FF0000;
+    transition: 0.3s;
+}
+
+.social-icons .fa-youtube-f:hover {
+    color: #FF0000;
+    transition: 0.3s;
+}
+
+.social-icons .fa-linkedin:hover {
+    color: #0077b5;
+    transition: 0.3s;
+}
+/*Principal*/
+.principal{
+    width: 100%;
+    float: left;
+    padding: 16px 8%; /* 8% é minimo de espaço que ele pode ocupar*/
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+.sobre h2{
+    margin-bottom: 15px;
+}
+
+.sobre img{
+    width: 50%;
+    float: left;
+    margin: 0px 10px 10px 0px;
+    border-radius: 7px;
+}
+
+.sobre p{
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 1.2em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Onde estamos - SIDE BAR*/
+
+.onde-estamos{
+    width: 30%;
+    float: right;
+    padding: 15px 20px; 
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.onde-estamos h2 {
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.onde-estamos iframe{
+    width: 100%;
+    height: 210px;
+    margin: 20px 0;
+    border-radius: 4px;
+   
+
+}
+
+.onde-estamos li{
+    color: #0cae98;
+    margin-bottom: 12px;
+    
+}
+/*Newsletter*/
+.newsletter{
+width: 100%;
+float: left;
+background-color: #111;
+padding: 50px 8%;
+text-align: center;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+
+}
+
+.newsletter h3{
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.newsletter p{
+    font-size: 1.2em;
+  
+}
+
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    
+}
+.newsletter input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    background-color: initial; /*Usa uma cor proxima a ele*/
+    color: #fff;
+    border-radius: 4px;
+}
+.newsletter input:focus {
+    border-color: deepskyblue;
+    box-shadow: 1px 1px 4px deepskyblue ;
+    transition: 0.3s;
+
+}
+.newsletter button{
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Rodape*/
+.rodape{
+width: 100%;
+height: 100%;
+float: left;
+background-color: #4F32F0;
+padding: 25px 8%;
+}
+
+.rodape p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Contato */
+/* Titulo  */
+#principal{
+    width: 100%;
+    padding: 100px;
+    float: left;
+    
+    
+}
+
+
+
+#principal  h1{
+    text-align: center;
+    font-size: 60pt;
+    
+}
+
+#principal p{
+    font-size: 18pt;
+    text-align: center;
+    color:rgba(79, 50, 240, 1);
+}
+/* Formulario  */
+#principal form{
+    float: left;
+    width: 100%;
+    padding: 20px 8%;
+}
+
+#forms{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#formulario{
+    border-bottom: 1px solid #4F32F0;
+    margin-right: 50px;
+    width: 300px;
+    margin-bottom:5%;
+    font-size: 13pt;
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    
+}
+
+  
+
+#formulario2{
+    margin-right: 0px;
+    border-bottom: 1px solid #4F32F0;
+    width: 300px;
+    height: 20%;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+}
+
+#formulario::placeholder{
+    font-size: 14pt;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    
+   
+    
+}
+#formulario2::placeholder{
+    font-size: 14pt;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+#formulario:focus{
+    background-color:rgba(79, 50, 240, 0.3) ;
+    transition: 1s;
+    
+}
+#formulario2:focus{
+    background-color:rgba(79, 50, 240, 0.3) ;
+    transition: 1s;
+    
+    
+}
+
+#comentario{
+    width: 50%;
+    border: 1px solid #4F32F0;
+    margin-top: 40px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+}
+
+#principal button{
+    margin-top: 50px;
+    margin: 20px auto;
+    padding:10px 30px;
+    background-color: #4e32f0be;
+    color: white;
+    cursor: pointer;
+    
+}
+#principal button:hover{
+    background-color: #2f0df3;
+    transition: 1s;
+    
+}
+/*Section Ouvidoria */
+#ouvidoria{
+    padding:50px 150px;
+    float: left;
+    width: 100%;
+}
+
+#ouvidoria h2{
+    font-size: 40pt;
+}
+
+#ouvidoria img{
+    width:29%;
+    float: left;
+}
+
+#info-ouvi{
+    float: right;
+    padding: 50px 2%;
+}
+#info-ouvi h3{
+    font-size: 20pt;
+    color:#4f32f0 ;
+
+}
+
+#info-ouvi a{
+    padding: 10px;
+    font-size: 18pt;
+    float: left;
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+}

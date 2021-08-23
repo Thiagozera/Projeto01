@@ -1,0 +1,197 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-size:100%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em;
+    color: #333;
+}
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+    background-image: linear-gradient(to top, rgb(159, 161, 0), rgb(0, 86, 92));
+}
+.logo a{
+width: 84px;
+height: 97px;
+float: left;
+background-image: url(../imagem/logo.png);
+font-size: 0px;
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    background-image: linear-gradient(to bottom, rgb(211, 214, 0), rgb(0, 108, 116));
+    background-color: #0cae98;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* MENU */
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+    max-height: 55px;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+.menu li a:hover{
+    color: #fff;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+/* SOCIAL-ICONS */
+.social-icons{
+    float: right;
+}
+.social-icons a{
+    color: #fff;
+    float: left;
+    margin-left: 20px; 
+}
+.social-icons .fa-facebook:hover{
+    color: #3b5998;
+}
+.social-icons .fa-twitter:hover{
+    color: rgb(0, 168, 168);
+}
+.social-icons .fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.social-icons .fa-envelope:hover{
+    color: red;
+}
+.social-icons .fa-youtube:hover{
+    color: rgb(255, 0, 0);
+}
+.social-icons .fa-linkedin:hover{
+    color:rgb(144, 151, 151)
+}
+.social-icons .fa-google:hover{
+    color: rgb(226, 76, 76);
+}
+
+/* PRINCIPAL SERVIÇOS */ 
+.principal{
+    width: 100%;
+    float: right;
+    padding: 16px 8%;
+}
+.servicos{
+    width: 100%;
+    float: left;
+    padding: 0px 20px 40px 0px;
+}
+.servicos h2{
+    margin-bottom: 40px;
+}
+.servicos img{
+    width: 30%;
+    float: left;
+    border-radius: 4px;
+    margin: 0 15px 0;
+}
+.servicos p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+.tamanho{
+    width: 200px;
+    height: 270px;
+}
+/* PRINCIPAL SERVIÇOS */
+
+
+/* NEWSLETTER */
+.newsletter{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+.newsletter h3{
+    font-size: 1.8em;
+    color: #fff;
+}
+.newsletter p{
+    font: 1.2em;
+    color: #fff;
+    padding-bottom: 4px;
+}
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.newsletter input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: initial;
+    color: #fff;
+}
+.newsletter button{
+    width: 17%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius:10px;
+    float: right;
+    cursor: pointer;
+}
+/* RODAPE */
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #005085;
+    padding: 25px 8%;
+}
+.rodape p{
+    color: #fff;
+}
